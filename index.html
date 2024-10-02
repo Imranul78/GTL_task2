@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTL-Task_2</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+ 
+ <header>
+     <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">C i r c l e</div>
+
+    <!-- Menu links -->
+    <div>
+      <ul class="nav-links" id="navLinks">
+        <li id="hide-li1"><a href="#login">Customer Login</a></li>
+        <li id="hide-li2"><a href="#signup">Sign Up</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="right-btn">
+      <ul class="nav-links" id="login">
+        <li><a href="#login">Customer Login</a></li>
+      </ul>
+      <button class="btn1" id="signup">Sign Up</button>
+    </div>
+
+
+    <!-- Hamburger Menu (Visible only on small screens) -->
+    <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+      
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <p>An AI tool made for conversion rate optimization</p>
+      <h1>Increase your<br>conversion rate <span class="using-AI">using AI</span></h1>
+      <button class="btn2">Create Account</button>
+      <p class="trial-info">30 Days free trial  |  No credit card required</p>
+    </div>
+  </div>
+
+     <!-- Video section -->
+
+    
+      <div class="video-container">
+        <video id="video" controls>
+            <source src="/video/IMG_6396.MP4" type="video/mp4">
+        </video>
+        
+        <div class="video-overlay" id="overlay">
+            <button class="play-button" onclick="playVideo()"></button>
+        </div>
+    </div>
+ </header>
+
+ <script src="/script.js"></script>
+</body>
+</html>
